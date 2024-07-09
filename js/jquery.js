@@ -55,11 +55,12 @@ gsap.to("footer",{
 })
 
 function scrollRevealeffect(){
-  ScrollReveal().reveal('.top-sec1 p', {
+  ScrollReveal().reveal('footer p', {
     distance: '150%',
     origin: 'left', 
-    duration: 100,
-    reset: true 
+    duration: 1000,
+    reset: true,
+    delay: 10, 
 });
 }
 scrollRevealeffect()
