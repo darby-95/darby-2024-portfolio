@@ -149,7 +149,7 @@ function preload(){
     let progressBar=document.querySelector('.progress-bar')
     let progressText=document.querySelector('.progress-text')
     let imgLoaded=0;
-    let imgTotal = 1000; // 로드시간이 너무 길 경우 숫자 줄이기
+    let imgTotal = 900; // 로드시간이 너무 길 경우 숫자 줄이기
     let current = 0;
     let progressTimer;
     let topValue;
