@@ -53,15 +53,3 @@ gsap.to("footer",{
       onEnter: footerText()
     },
 })
-
-function scrollRevealeffect(){
-  ScrollReveal().reveal('footer p', {
-    distance: '150%',
-    origin: 'left', 
-    duration: 1000,
-    reset: true,
-    delay: 10, 
-});
-}
-scrollRevealeffect()
-
