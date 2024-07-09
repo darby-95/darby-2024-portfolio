@@ -58,8 +58,8 @@ function scrollRevealeffect(){
   ScrollReveal().reveal('.top-sec1 p', {
     distance: '150%',
     origin: 'left', 
-    duration: 1000,
-    delay: 300, 
+    duration: 100,
+    delay: 100, 
     reset: true 
 });
 }

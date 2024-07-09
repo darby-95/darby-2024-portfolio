@@ -504,6 +504,7 @@ main {position: relative;}
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 /* 💛 introdution */
 
+
 .section-wrap {
   display: flex;
   width: 200vw;
@@ -514,6 +515,18 @@ main {position: relative;}
   height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+
+.introdution .circle {
+  position: absolute;
+  top: 47%;
+  right: 1vw;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 200px;
+  animation: opacity 1s 1s infinite;
+  pointer-events: none;
 }
 
 .introdution .list .item {
@@ -747,6 +760,12 @@ main {position: relative;}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 /* 💛 Skill */
+
+.skill .arrow {
+  position: absolute; top: 3vh; right: 30vw; 
+  width: 350px; animation: opacity 1s 1s infinite; pointer-events: none;
+  z-index: 10; transform: rotateZ(30deg);
+}
 
 .myskill {
   background: url(../image/paper.jpg);
