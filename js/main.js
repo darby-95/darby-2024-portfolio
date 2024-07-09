@@ -149,7 +149,7 @@ function preload(){
     let progressBar=document.querySelector('.progress-bar')
     let progressText=document.querySelector('.progress-text')
     let imgLoaded=0;
-    let imgTotal = 1200;
+    let imgTotal = 1500;
     let current = 0;
     let progressTimer;
     let topValue;
