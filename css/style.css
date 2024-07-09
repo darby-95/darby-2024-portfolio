@@ -1387,7 +1387,7 @@ footer .bottom-sec span {
 .progress {
   position: fixed; left: 0; top: 0; z-index: 999; 
   height: 100%; width: 100%; 
-  background: linear-gradient(45deg, #F6D365, #FDA085);; color: var(--ivory); 
+  background: linear-gradient(45deg, #F6D365, white);; color: var(--ivory); 
   transition: 0.5s cubic-bezier(0.83, 0.25, 0, 1.01);
 }
 .progress .progress-bar {
