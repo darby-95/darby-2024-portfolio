@@ -59,7 +59,6 @@ function scrollRevealeffect(){
     distance: '150%',
     origin: 'left', 
     duration: 100,
-    delay: 100, 
     reset: true 
 });
 }
